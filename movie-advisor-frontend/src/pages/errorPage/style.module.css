@@ -1,0 +1,18 @@
+.page {
+    padding-top: 100px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 30px;
+    color: white;
+    background-color: #c52525;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+}

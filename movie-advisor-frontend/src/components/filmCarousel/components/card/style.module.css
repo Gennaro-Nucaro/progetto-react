@@ -1,0 +1,136 @@
+.card {
+  height: 360px;
+  width: 220px;
+  margin: 15px;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.753);
+  border-radius: 5px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.cardImg {
+  min-height: 310px;
+  max-height: 310px;
+  min-width: 220px;
+  max-width: 220px;
+  border-radius: 5px;
+}
+
+/* action */
+.action {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 310px;
+  max-height: 310px;
+  min-width: 220px;
+  max-width: 220px;
+  background-color: rgba(0, 0, 0, 0.712);
+  z-index: 1;
+}
+
+.footerAction {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* icons */
+.icon {
+  color: rgb(199, 199, 199);
+  font-size: 45px;
+  padding: 0px 5px 20px 5px;
+  position: sticky;
+  cursor: pointer;
+}
+
+.iconActive {
+  color: rgb(255, 196, 0);
+  font-size: 45px;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+  position: sticky;
+}
+
+.iconActive:hover {
+  color: rgb(255, 196, 0);
+}
+
+.iconNotActive {
+  color: rgb(199, 199, 199);
+  font-size: 45px;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+  position: sticky;
+}
+.iconActiveHeart{
+  color: rgb(209, 33, 33);
+  font-size: 45px;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+}
+
+.heartLoading{
+  color: rgb(199, 90, 90);
+  font-size: 45px;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+}
+
+.iconStopActive {
+  color: rgb(165, 0, 0);
+  font-size: 45px;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+}
+
+/*  */
+.btnContainer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.btnRegister {
+  background-color: #c52525;
+  padding: 8px 14px;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.btnRegister:hover {
+  background-color: #a31e1e;
+}
+
+.footer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 45px;
+  max-height: 45px;
+  color: white;
+}
+
+.footer:hover {
+  color: rgb(75, 145, 236) !important;
+}
+
+.title {
+  padding-left: 2px;
+  font-size: 16px;
+}
+
+.years {
+  padding-left: 2px;
+  font-size: 15px;
+}

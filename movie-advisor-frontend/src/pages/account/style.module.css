@@ -1,0 +1,72 @@
+.page {
+  padding-top: 65px;
+  color: white;
+  min-height: 100vh;
+}
+.container {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 50px;
+}
+.info h1 {
+  margin: 40px 20px;
+}
+.container span {
+  text-transform: capitalize;
+}
+.form {
+  width: 800px;
+  height: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.formElement {
+  display: flex;
+  justify-content: space-between;
+}
+.formElement input {
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.formElement p {
+  font-size: 30px;
+  margin: 3px;
+}
+.actions {
+  margin-top: 30px;
+  text-align: center;
+}
+.btn {
+  background-color: #c52525;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.smallbtn {
+  background-color: #c52525;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #a81f1f;
+}
+.btn:active {
+  background-color: #c52525;
+}

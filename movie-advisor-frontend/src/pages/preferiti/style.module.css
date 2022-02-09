@@ -1,0 +1,78 @@
+.page {
+  padding-top: 65px;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+.header {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.containerInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 50%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border: none;
+}
+.listContainer {
+  margin: 0px 50px;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+.voidlist {
+  color: white;
+  font-size: 30px;
+}
+.imageContainer img {
+  height: 140px;
+}
+.noPreferiti{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  border-color: rgba(255, 255, 255, 0);
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 18px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  border-bottom: 1px solid white;
+  min-height: 67px;
+}
+.titleFilm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.titleFilm:hover {
+  color: rgb(34, 155, 253);
+}
+.icon {
+  font-size: 40px;
+  cursor: pointer;
+  margin: 0px 5px;
+  color: white;
+}
+
+.iconsContainer {
+  display: flex;
+}

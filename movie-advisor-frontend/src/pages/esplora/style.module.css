@@ -1,0 +1,70 @@
+.page {
+  padding-top: 60px;
+  min-height: 100vh;
+  margin-bottom: 250px;
+}
+
+.title {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.iconsArea {
+  display: flex;
+  justify-content: space-evenly;
+  width: fit-content;
+  color: white;
+  float: right;
+  margin-right: 10px;
+}
+
+.iconOne {
+  font-size: 35px;
+  padding: 2px;
+  cursor: pointer;
+  border: 2px solid #c52525;
+  border-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+
+}
+
+.iconTwo {
+  font-size: 31px;
+  padding: 4px;
+  cursor: pointer;
+  border: 2px solid #c52525;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.iconActive {
+  background-color: #c52525;
+}
+
+.containerCarousel {
+  clear: right;
+}
+
+.risultatiGriglia {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.titleResGri {
+  font-size: 30px;
+  margin-left: 15px;
+  color: white;
+  font-weight: 600;
+  clear: right;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100%;
+  margin: 0 auto;
+}

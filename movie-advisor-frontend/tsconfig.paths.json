@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@redux-asyncActions": ["src/redux/slice/asyncActions"],
+        "@redux-slices/*": ["src/redux/slice/*"],
+        "@redux-rtkQueries": ["src/redux/query"],
+        "@redux-hooks":["src/redux/hooks"],
+        "@components/*": ["src/components/*"],
+        "@utils/*": ["src/utils/*"],
+        "@hooks/*":["src/hooks/*"]
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+.component {
+  text-align: center;
+}
+
+.component h3 {
+  font-size: 30px;
+  margin: 10px 0px 20px 0px;
+  color: #999999;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}

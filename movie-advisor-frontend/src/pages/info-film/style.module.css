@@ -1,0 +1,137 @@
+.page {
+  padding-top: 60px;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+.sfondo {
+  min-height: 500px;
+  max-height: 500px;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+.poster {
+  height: 200px;
+  width: 250px;
+  margin: 50px;
+}
+
+.img {
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.info {
+  margin: 50px 25px;
+}
+
+.containerTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.titleVA {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.voteAverage {
+  margin-left: 10px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+}
+
+.iconsArea {
+  display: flex;
+  margin: 10px 10px 15px 0px;
+}
+
+/* icons */
+.icon {
+  color: rgb(199, 199, 199);
+  font-size: 45px;
+  position: sticky;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.iconActive {
+  color: rgb(255, 196, 0);
+  font-size: 45px;
+  padding-right: 20px;
+  cursor: pointer;
+  position: sticky;
+}
+
+.iconActive:hover {
+  color: rgb(255, 196, 0);
+}
+
+.iconNotActive {
+  color: rgb(199, 199, 199);
+  font-size: 45px;
+  cursor: pointer;
+  padding-right: 20px;
+  position: sticky;
+}
+
+.iconStopActive {
+  color: rgb(165, 0, 0);
+  font-size: 45px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.iconActiveHeart {
+  color: rgb(209, 33, 33);
+  font-size: 45px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.loadingHeart{
+  color: rgb(211, 79, 79);
+  font-size: 45px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+/*  */
+.title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.year {
+  margin-left: 10px;
+  font-size: 35px;
+  color: rgb(180, 180, 180);
+}
+
+.infoFooter {
+  margin-top: 10px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(180, 180, 180);
+  margin: 10px 0px;
+}
+
+.trama {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+}

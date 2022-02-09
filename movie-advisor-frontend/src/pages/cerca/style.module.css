@@ -1,0 +1,62 @@
+.page {
+  padding-top: 65px;
+  min-height: 100vh;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.containerInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 50%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50px;
+  padding-left: 20px;
+  border: none;
+}
+.risultati {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon {
+  color: white;
+  font-size: 28px;
+  margin-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: rgb(211, 211, 211);
+}
+
+.zeroResult {
+  color: #fff;
+  margin: 80px;
+  font-size: 40px;
+}
+.titleQuery {
+  color: white;
+  font-size: 25px;
+  margin: 5px;
+  text-align: center;
+}

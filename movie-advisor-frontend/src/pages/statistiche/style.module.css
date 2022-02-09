@@ -1,0 +1,29 @@
+.page {
+  padding-top: 60px;
+  margin: 0px auto;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.bG {
+  background-color: #fff;
+}
+.noStats {
+  color: white;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.title {
+  color: #999999;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,40 @@
+.card {
+  height: 330px;
+  width: 200px;
+  margin: 15px;
+  object-fit: cover;
+  background-color: rgb(27, 26, 26);
+  border-radius: 5px;
+  color: white;
+}
+.cardImg {
+  max-height: 270px;
+  min-height: 270px;
+  max-width: 200px;
+  min-width: 200px;
+  border-radius: 5px;
+}
+.title {
+  padding:2px 0px 5px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.counter {
+  padding:2px 0px 5px 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.title:hover {
+  color: rgb(0, 101, 196);
+}
+.years {
+  padding-left: 2px;
+}
+.footer {
+  background-color: red;
+  /* height: 100%; */
+}
+.character {
+  font-size: 14px;
+}

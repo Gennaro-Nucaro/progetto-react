@@ -1,0 +1,65 @@
+.page {
+  padding-top: 65px;
+  color: white;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+.title {
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 10px;
+  margin-top: 20vh;
+}
+.container {
+  width: 450px;
+  height: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.formElement {
+  display: flex;
+  justify-content: space-between;
+}
+.formElement input {
+  width: 50%;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.formElement p {
+  font-size: 35px;
+  margin: 3px;
+}
+.btn {
+  padding: 12px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c52525;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.message{
+  height: 35px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #b12020;
+}
+.btn:active {
+  background-color: #c52525;
+}
+.info {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.info:hover {
+  color: rgb(75, 145, 236);
+}

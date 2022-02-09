@@ -1,0 +1,29 @@
+.popover {
+  position: relative;
+  height: 120%;
+}
+
+.paper {
+  white-space: nowrap;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  z-index: 10000;
+  position: absolute;
+}
+.list li {
+  padding: 8px 5px;
+  height: 100%;
+  font-size: 18px !important;
+}
+
+.Linklist li {
+  padding: 8px 5px;
+  height: 100%;
+  font-size: 18px !important;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.Linklist li a:hover {
+  color: rgb(51, 123, 218);
+}
